@@ -1,0 +1,62 @@
+
+html{
+    background-color: #0A1D56;
+}
+
+.head1{
+    color:#492E87;
+    text-align: center;
+}
+
+.text1{
+    color:#FF6868;
+    text-align: center;
+    font-size: 50pt;
+}
+
+.cat{
+    text-align: center;
+    font-size: 30px;
+    height: 100%;
+    padding: 10px;
+    border: 40px;
+    color: white;
+}
+
+#cat1{
+    margin: 20px;
+    width: 20%;
+    color: white;
+    padding: 15px;
+    border-radius: 25%;
+    border: 20px solid white ;
+}
+
+#I{
+    font-size: x-large;
+    text-align: center;
+    color: #982176;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

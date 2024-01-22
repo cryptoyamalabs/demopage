@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+      background-color: #87CEEB; /* Sky Blue */
+    }
+
+    .scene {
+      position: relative;
+      width: 100vw;
+      height: 100vh;
+    }
+
+    .caveman {
+      position: absolute;
+      bottom: 0;
+      left: 20%;
+      width: 80px;
+      height: 120px;
+      background-color: #8B4513; /* Saddle Brown */
+      animation: runCaveman 3s linear infinite;
+    }
+
+    .dinosaur {
+      position: absolute;
+      bottom: 0;
+      right: 20%;
+      width: 150px;
+      height: 100px;
+      background-color: #32CD32; /* Lime Green */
+      animation: runDinosaur 3s linear infinite;
+    }
+
+    @keyframes runCaveman {
+      0%, 50% {
+        transform: translateX(0);
+      }
+      50%, 100% {
+        transform: translateX(100vw);
+      }
+    }
+
+    @keyframes runDinosaur {
+      0%, 50% {
+        transform: translateX(100vw);
+      }
+      50%, 100% {
+        transform: translateX(0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="scene">
+    <div class="caveman"></div>
+    <div class="dinosaur"></div>
+  </div>
+</body>
+</html>
